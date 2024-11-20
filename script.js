@@ -109,7 +109,7 @@ const ctx2 = document.getElementById('serviceProviderChart').getContext('2d');
 const serviceProviderChart = new Chart(ctx2, {
     type: 'pie',
     data: {
-        labels: ['Multigas Distributors', 'UBUNTU Village', 'DMJ Mechanicals'],
+        labels: ['Multigas', 'UBUNTU', 'DMJ'],
         datasets: [{
             data: [0, 0, 0],
             backgroundColor: ['#36a2eb', '#ff6384', '#ffcd56']
